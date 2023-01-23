@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Empty browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[browser is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Digital downloads page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Product got added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Shoppingcart page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Checkout page is displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14120" started-at="2023-01-23T10:01:20 IST" finished-at="2023-01-23T10:01:34 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14120" started-at="2023-01-23T10:01:20 IST" finished-at="2023-01-23T10:01:34 IST">
+      <class name="digital_Downloads.TC_010">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:digital_Downloads.TC_010@3dfc5fb8]" name="launchBrowser" is-config="true" duration-ms="4110" started-at="2023-01-23T10:01:20 IST" finished-at="2023-01-23T10:01:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empty browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[browser is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:digital_Downloads.TC_010@3dfc5fb8]" name="login" is-config="true" duration-ms="1890" depends-on-groups="launch" started-at="2023-01-23T10:01:24 IST" finished-at="2023-01-23T10:01:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="checkoutPage()[pri:0, instance:digital_Downloads.TC_010@3dfc5fb8]" name="checkoutPage" duration-ms="6207" started-at="2023-01-23T10:01:26 IST" finished-at="2023-01-23T10:01:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Digital downloads page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Product got added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Shoppingcart page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Checkout page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkoutPage -->
+        <test-method status="PASS" signature="logoutAndCloseTheBrowser()[pri:0, instance:digital_Downloads.TC_010@3dfc5fb8]" name="logoutAndCloseTheBrowser" is-config="true" duration-ms="1889" started-at="2023-01-23T10:01:32 IST" finished-at="2023-01-23T10:01:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAndCloseTheBrowser -->
+      </class> <!-- digital_Downloads.TC_010 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
