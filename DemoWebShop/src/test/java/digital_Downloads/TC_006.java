@@ -14,6 +14,7 @@ import pom_Repo.DigitalDownloadsPage;
 public class TC_006 extends BaseUnit{
 	@Test
 	public void wishListButton() {
+		//1.Clicking on Digital downloads category
 		DigitalDownloadsPage digitalDownloads = new DigitalDownloadsPage(driver); 
 		digitalDownloads.getDigitalDownloadcatergory().click();
 		
@@ -23,6 +24,7 @@ public class TC_006 extends BaseUnit{
 		Assert.assertEquals(expectedDigitalDownloadsPageTitle,actualDigitalDownloadsPageTile,"Digital Downloads page is not displayed");
 		Reporter.log("Digital downloads page is displayed", true);
 		
+		//2.Selecting a product
 		DigitalDownloadsPage product = new DigitalDownloadsPage(driver);
 		product.getClickOnProduct().click();
 		
@@ -32,6 +34,7 @@ public class TC_006 extends BaseUnit{
 		Assert.assertEquals(actualProductPageTitle, expectedProductPageTitle, "Product page is not displayed");
 		Reporter.log("Product page is displayed");
 		
+		//3.Clicking on wishlist button
 		DigitalDownloadsPage wishlistIcon = new DigitalDownloadsPage(driver);
 		wishlistIcon.getWishListButton().click();
 		
